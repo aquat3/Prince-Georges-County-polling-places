@@ -20,3 +20,26 @@
 .App-link {
   color: #09d3ac;
 }
+.about-container{
+
+  border:1px solid red;
+  display:flex;
+  padding:100px;
+  margin:auto;
+}
+.about-left{
+border:1px solid black;
+  width:50%;
+ display:inline-block;
+  
+
+}
+.about-right{
+display:inline-block;
+
+}
+.about-right img{
+  display:inline-block;
+  border:1px solid green;
+  
+}
