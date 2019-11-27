@@ -32,25 +32,7 @@ We’re a group of students many of whom live have lived in PG county and
     </div>
   );
 }
-var NewComponent = React.createClass({
-  render: function() {
-    return (
-      <nav id="navbar" className="nav">
-        <ul className="nav-list">
-          <li>
-            <a href="#welcome-section">About</a>
-          </li>
-          <li>
-            <a href="#projects">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    );
-  }
-});
+
 
 function About() {
   return (
