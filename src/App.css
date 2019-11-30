@@ -22,14 +22,14 @@
 }
 .about-container{
 
-  border:1px solid red;
+  border:0px solid red;
   display:flex;
   padding:100px;
   margin:auto;
 }
 .about-left{
-border:1px solid black;
-  width:50%;
+border:0px solid black;
+  width:45%;
  display:inline-block;
   
 
@@ -40,7 +40,8 @@ display:inline-block;
 }
 .about-right img{
   display:inline-block;
-  border:1px solid green;
+  border:0px solid green;
+  margin-left:40%;
   
 }
 
@@ -72,4 +73,37 @@ li a:hover {
 
 .logo {
   float: left;
+}
+
+@media screen and (max-width: 800px) {
+
+  .about-container{
+
+    border:0px solid red;
+    display:flex;
+  flex-direction:column;
+    margin:auto;
+    padding:10px;
+  }
+  .about-left{
+    border:0px solid black;
+      width:100%;
+     display:block;
+     
+       
+    
+    }
+.about-left h1{
+  text-align:center;
+}
+    .about-right img{
+      display:block;
+      border:0px solid green;
+       margin:0;
+       width:100%;
+    }
+    .about-right{
+      width:100%;
+      display:block;
+    }
 }
